@@ -1,5 +1,5 @@
 {% set name = "htpolynet" %}
-{% set version = "1.0.7.3" %}
+{% set version = "1.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/htpolynet-{{ version }}.tar.gz
-  sha256: 8c20c631f9bb8634e7bd83338d37502994fdce6692652d01410b5f330b25e2f5
+  sha256: 36da81f4792dfc24665a36c24ff0145de627f9e614ea4ecdd04424f424868259
 
 build:
   entry_points:
